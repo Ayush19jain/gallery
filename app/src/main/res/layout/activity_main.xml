@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#2A8691"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="55dp"
+            android:text="GALLERY"
+            android:textColor="#E30B0B"
+            android:textSize="70sp" />
+    </LinearLayout>
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="30dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="139dp"
+        android:src="@drawable/photoandroid"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="139dp"
+        android:src="@drawable/photoandroid" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="139dp"
+        android:src="@drawable/photoandroid"/>
+
+  </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingTop="50dp"
+   android:orientation="horizontal">
+
+   <ImageView
+       android:layout_width="134dp"
+       android:layout_height="139dp"
+       android:src="@drawable/photoandroid"
+       />
+
+   <ImageView
+       android:layout_width="130dp"
+       android:layout_height="139dp"
+       android:src="@drawable/photoandroid" />
+
+   <ImageView
+       android:layout_width="130dp"
+       android:layout_height="139dp"
+       android:src="@drawable/photoandroid"/>
+
+ </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="50dp"
+      android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="139dp"
+        android:src="@drawable/photoandroid"
+        />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="139dp"
+        android:src="@drawable/photoandroid" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="139dp"
+        android:src="@drawable/photoandroid"/>
+
+  </LinearLayout>
+
+
+
+
+</LinearLayout>
+
